@@ -1,0 +1,127 @@
+
+/* Header */
+title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/* Body */
+/* Navbar */
+.content_calque {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 100px;
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.accueil {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    background-image: url("./assets/photo-1617089268741-035d1a43fad9.avif");
+    background-size: cover;
+    padding: 100px;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid LightGrey;
+    padding: 10px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background-color: #ffb7c5;
+}
+
+.navbar a {
+    background-color: #ffb7c5;
+    border: 1px solid #ffb7c5;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: white;
+    border: 1px solid #ffb7c5;
+    color: #ffb7c5;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 18px;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar li:last-child {
+    margin-right: 20px;
+}
+
+.content {
+    background-image: url("./assets/photo-1617089268741-035d1a43fad9.avif");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 200px;
+}
+
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pictures img{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    padding: 1%;
+}
+
+/* Footer */
+.footer_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_child img{
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
